@@ -1,4 +1,4 @@
-%Checking if the image is grayscale or color
+%Grayscale image check
 img = imread("TestImage.jpg");
 if size(img, 3) == 1
     disp("The image is grayscale");
